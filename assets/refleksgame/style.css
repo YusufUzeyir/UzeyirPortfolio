@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(151, 254, 237);
+}
+
+.game-container {
+    margin: 100px auto;
+    width: 300px;
+}
+
+.progress-bar-container {
+    position: relative;
+    height: 20px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #00cc00;  
+    transition: width 1.5s linear;
+}
+
+.score-container {
+    margin-bottom: 20px;
+}
+
+.direction-container {
+    font-size: 75px; /* Daha büyük yazı boyutu */
+    background-color: rgb(7, 25, 82); 
+    color: #fff; /* Beyaz metin rengi */
+    padding: 10px;
+    border-radius: 15px;
+    line-height: 75px; /* Yükseklik ile uyumlu satır yüksekliği */
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.5); /* 3 boyutlu gölge efekti */
+}
