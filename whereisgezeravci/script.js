@@ -145,11 +145,7 @@ const centreMap = async() => {
   issMap.setView([latitude, longitude], 3);
 }
 
-// =======================================================
-// People on ISS function
-// Spacecraft currently docked with ISS
-// National flags called from https://www.countryflags.io/
-// =======================================================
+
 
 const issInfo = () => {
   
